@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lez-9 esercizio tabella nutrizione-Fulvio</title>
+	<style>
+		table {
+		  width: 70%;
+		  border-collapse: collapse;
+		  border-bottom: 2px solid black ;
+		  border-top: 2px solid black ;
+		  border-left: 2px solid black ;
+		  border-right: 2px solid black ;
+		  font-family: Arial;
+		}
+		  th, td {
+		  	padding: 3px;
+		  	text-align: right;	
+			/*width: 150px;	*/
+		}
+		.titolo-tabella{ 
+			background-color:rgba(12, 11, 11, 0.822);
+			color: white;
+		    border-top: 2px solid black ;
+		    border-left: 2px solid black ;
+		    border-right: 2px solid black ;
+			font-size: 20px;
+			font-weight: bold;
+			text-align: center;
+			padding:10px;
+		}
+		.allinea-sx{
+			text-align:left;
+		}
+
+		.riga1 {/*riga colorarata*/
+		background-color: #c7fcfc;
+		  }
+
+		.bordo{	/*bordo riga intestazione tabella*/
+			border-bottom: 2px solid black;
+			border-collapse: collapse;
+		}
+				
+	</style>
+</head>
+<body>
+    <table >
+	<caption class="titolo-tabella">VALORI NUTRIZIONALI</caption>
+      <thead></thead>
+      <tbody>
+    	<tr > <!--Intestazione colonne-->
+			<th class="bordo" rowspan="2"></th>
+			<th class="bordo" rowspan="2"  >100 g</th>
+			<th class="bordo" rowspan="2"  >porzione (150 g)</th>
+			<th class="bordo" rowspan="2"  >AR (100 g)</th>
+			<th class="bordo" rowspan="2"  >AR (150 g)</th>
+			<th >Assunzione di </th>
+		</tr> 
+		<tr > <!--Intestazione colonne-->
+			<th class="bordo" >riferimento</th>
+		</tr> 
+		<tr class="riga1"><th class="allinea-sx" rowspan="2">Energia</td><td>1545 kJ</td><td>2318 kJ</td><td rowspan="2">18,4%</td><td rowspan="2">27,6%</td><td >8400 kJ</td></tr>
+		<tr class="riga1"></td><td>364 kcal</td><td>546 kcal</td><td>2000 kcal</td></tr>
+		<tr><th class="allinea-sx" >Grassi</td><td>0,8 g</td><td>1,2g</td><td>1,1%</td><td>1,7%</td><td>70 g</td></tr>
+		<tr class="riga1"><td class="allinea-sx">di cui saturi</td><td>0 g</td><td>0 g</td><td>0,0%</td><td>0,0%</td><td>20 g</td></tr>
+		<tr><th  class="allinea-sx">Carboidrati</td><td>77 g</td><td>116 g</td><td>29,6%</td><td>44,4%</td><td>360 g</td></tr>
+		<tr class="riga1"><td class="allinea-sx">di cui zuccheri</td><td>1,7 g</td><td>2,6 g</td><td>1,9%</td><td>2,8%</td><td>90 g</td></tr>
+		<tr ><th class="allinea-sx">Fibre</td><td>2,4 g</td><td>3,6 g</td><td></td><td></td><td>g</td></tr>
+		<tr class="riga1"><th class="allinea-sx">Proteine</td><td>11 g</td><td>16 g</td><td>22,0%</td><td>33,0%</td><td>50 g</td></tr>
+		<tr ><th class="allinea-sx">Sale</td><td>0,01 g</td><td>0,02 g</td><td>0,2%</td><td>0,2%</td><td>6 g</td></tr>
+		
+    </tbody>
+	  <tfoot></tfoot>
+	</table>
+</body>
+
+</html>
