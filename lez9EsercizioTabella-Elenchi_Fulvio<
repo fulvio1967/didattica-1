@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lez. 9 esercizio tabella con elenchi Fulvio</title>
+    <style>
+        table{
+            width: 339px;
+            font-family: arial;
+            text-align: left;
+        }
+/*th, td{
+    width: 100px;
+}*/
+    </style>
+</head>
+<body>
+<table>
+    <tbody>
+        <tr>
+            <td>Lorem ipsum dolor sit amet.</td>
+            <td>Lorem ipsum dolor sit amet.</td>
+        </tr>
+         <tr> 
+            <td> 
+                <ul>
+                    <li>Erat tempor consetetur dolor facer no molestie kasd</li> 
+                    <li>Dolores ex ea ipsum labore est</li>
+                    <li>Et quod sed dolores adipiscing no diam</li>
+                </ul>
+            </td> 
+
+            <td>
+                <ol>
+                    <li>Erat tempor consetetur dolor facer no molestie kasd</li> 
+                    <li>Dolores ex ea ipsum labore est</li>
+                    <li>Et quod sed dolores adipiscing no diam</li> 
+                </ol>
+            </td>
+        </tr>
+    </tbody>
+ </table>
+</body>
+</html>
